@@ -1,0 +1,21 @@
+{
+    "name": "maxkos/yii2-additional-ext",
+    "description": "Base extension for yii2",
+    "type": "library",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Max Kos",
+            "email": "max_82@mail.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MaxKosYii2\\AdditionalExt\\": ""
+        }
+    }
+}
